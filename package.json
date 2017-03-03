@@ -1,0 +1,31 @@
+{
+  "name": "wifi_crack",
+  "version": "1.0.0",
+  "description": "Easily grab the wifi password for any Wifi network. For Mac.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creador/wifi_crack.git"
+  },
+  "keywords": [
+    "wifi",
+    "crack",
+    "hack",
+    "scanner",
+    "password",
+    "recovery"
+  ],
+  "author": "Pablo Schaffner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creador/wifi_crack/issues"
+  },
+  "homepage": "https://github.com/creador/wifi_crack#readme",
+  "dependencies": {
+    "axel-js": "^0.1.8",
+    "pretty-seconds": "^0.2.1"
+  }
+}
