@@ -36,7 +36,7 @@ var capture = {
 			cb(false,v.sudo);
 		});
 	},
-	getWifiNetworks : () => {
+	getWifiNetworks : (cb) => {
 		// return array of available wifi networks
 		// get wifi networks
 		t.wifis = _run('/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s -x').out;
@@ -63,7 +63,8 @@ var capture = {
 			}
 			v.wifis.push(t.r_info);
 		}
-		console.log(v.wifis);
+		cb(false,v.wifis);
+		//console.log(v.wifis);
 	},
 	getNetworkCardAlias : () => {
 		// return first network alias usign ifconfig
