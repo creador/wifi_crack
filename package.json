@@ -25,7 +25,14 @@
   },
   "homepage": "https://github.com/creador/wifi_crack#readme",
   "dependencies": {
+    "async": "^2.2.0",
     "axel-js": "^0.1.8",
-    "pretty-seconds": "^0.2.1"
+    "colors": "^1.1.2",
+    "fast-plist": "^0.1.2",
+    "inquirer": "^3.0.6",
+    "ora": "^1.2.0",
+    "pretty-seconds": "^0.2.1",
+    "shelljs": "^0.7.7",
+    "sudo": "^1.0.3"
   }
 }
